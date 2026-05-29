@@ -5,7 +5,7 @@ import FadeIn from '../ui/FadeIn'
 import { skills } from '@/lib/data'
 
 import {
-  SiReact, SiJavascript, SiHtml5, SiCss,
+  SiReact, SiTypescript, SiJavascript, SiHtml5, SiCss,
   SiNodedotjs, SiNestjs, SiExpress,
   SiMongodb, SiDocker, SiGooglecloud,
   SiGit, SiStripe, SiVercel, SiPython,
@@ -23,6 +23,7 @@ type SkillEntry = { icon: IconType; color: string }
 
 const skillMap: Record<string, SkillEntry> = {
   'React.js':             { icon: SiReact,          color: '#61DAFB' },
+  'TypeScript':           { icon: SiTypescript,     color: '#3178C6' },
   'JavaScript ES6+':      { icon: SiJavascript,     color: '#F7DF1E' },
   'HTML5':                { icon: SiHtml5,          color: '#E34F26' },
   'CSS3':                 { icon: SiCss,            color: '#1572B6' },

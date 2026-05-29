@@ -8,7 +8,7 @@ export const navLinks = [
 ]
 
 export const skills = {
-  Frontend: ['React.js', 'JavaScript ES6+', 'HTML5', 'CSS3', 'REST API Integration', 'Responsive UI'],
+  Frontend: ['React.js', 'TypeScript', 'JavaScript ES6+', 'HTML5', 'CSS3', 'REST API Integration', 'Responsive UI'],
   Backend: ['Node.js', 'NestJS', 'Express.js', 'RESTful APIs', 'JWT Auth', 'Microservices'],
   'AI & LLM': ['RAG Systems', 'LLMs', 'Vector Embeddings', 'Semantic Search', 'LangChain', 'Prompt Engineering', 'Python'],
   Database: ['MongoDB', 'SQL', 'ChromaDB', 'Schema Design'],
